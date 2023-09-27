@@ -1,26 +1,31 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+.g_boder{
+  border: 1px dashed red;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+body{
+  background-color: #E8E8E8;
 }
 
-* {
-  box-sizing: border-box;
+
+header{
+  height:78px;
+  border: 1px dashed black;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+main{
+  min-height:800px;
+  border: 1px dashed black;
+}
+
+footer{
+   height:395px;
+  border: 1px dashed black;
+}
+
+
+  @media (min-width: 1200px){
+    .container-xl, .container-lg, .container-md, .container-sm, .container {
+        max-width: 1266px !important;
+    }
   }
-  body {
-    color: white;
-    background: black;
-  }
-}
+
